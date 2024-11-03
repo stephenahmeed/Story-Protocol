@@ -5,7 +5,7 @@ const privateKey: Address = `0x${process.env.WALLET_PRIVATE_KEY}`
 export const account: Account = privateKeyToAccount(privateKey)
 
 // This is a pre-configured PIL Flavor: https://docs.story.foundation/docs/pil-flavors
-export const NonCommercialSocialRemixingTermsId = '1'
+export const NonCommercialSocialRemixingTermsId = '111111'
 
 // A NFT contract address that will be used to represent your IP Assets
 export const NFTContractAddress: Address = (process.env.NFT_CONTRACT_ADDRESS as Address) || '0x322813fd9a801c5507c9de605d63cea4f2ce6c44'
